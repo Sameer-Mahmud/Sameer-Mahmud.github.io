@@ -24,7 +24,7 @@ html {
    * default document font size = 16px, 1rem = 16px, 100% = 16px
    * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
   */
-  font-size: 85%;
+  font-size: 70%;
   scroll-behavior: smooth; }
 
 a {
@@ -64,9 +64,7 @@ body {
 .down-arrow {
   position: relative;
   display: block;
-  text-align: center;
-  margin-bottom: 2rem;
-  bottom: 2.5rem; }
+  text-align: center; }
   .down-arrow--link {
     text-decoration: none;
     color: white; }
