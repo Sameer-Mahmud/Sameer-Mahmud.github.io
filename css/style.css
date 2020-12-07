@@ -149,7 +149,7 @@ body {
   transition: background 0.3s ease-out; }
 
 .btn-show-all:hover {
-  background: lightcoral; }
+  background: rgba(252, 191, 73, 0.8); }
 
 .btn-show-all:hover > i {
   transform: translateX(2px); }
