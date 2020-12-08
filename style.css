@@ -119,14 +119,17 @@ body {
 .project {
   background: #eae2b7;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  border-radius: 2px; }
+  border-radius: 2px;
+  transition: background 0.3s ease-out; }
+  .project:hover {
+    background: #fcbf49; }
 
 .code {
   color: #eae2b7;
   transition: color 0.3s ease-out; }
 
 .project:hover .code {
-  color: #f77f00; }
+  color: #d62828; }
 
 .project-image {
   height: calc(85% - 7rem);

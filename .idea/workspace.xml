@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fbba3b33-1adc-4240-93e2-54e3a8631f16" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -57,7 +58,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607308430768</updated>
-      <workItem from="1607308431979" duration="5551000" />
+      <workItem from="1607308431979" duration="6410000" />
+      <workItem from="1607394196049" duration="1861000" />
     </task>
     <servers />
   </component>
@@ -74,6 +76,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="469" y="150" key="SettingsEditor" timestamp="1607308460519">
