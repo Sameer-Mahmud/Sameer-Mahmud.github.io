@@ -14,6 +14,26 @@
 <body>
 <!-- Header -->
 <header class = "header">
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: transparent;">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto me-4 nav-items">
+              <li class="nav-item me-3">
+                <a class="nav-link" aria-current="page" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
     <div class = "header__text">
         <h1 class = "heading-primary" class = "d-none">
         <span class = "heading-primary--main">Hi. My Name Is Sameer Mahmud</span>
@@ -29,7 +49,7 @@
 
         </h1>
         <div class = "down-arrow">
-        <p class="heading-primary--sub">Learn more...</p>
+        <p class="heading-primary--sub">learn more</p>
         <a href = "#projects" class = "down-arrow--link">
             <i id="down-arrow--icon" class="fas fa-arrow-circle-down"></i>
         </a>
@@ -148,6 +168,23 @@
     >Github<i class="fas fa-chevron-right"></i
     ></a>
 </section>
+<!-- About me section-->
+<section id="about-me" class="about-section">
+    <h2 class = "about-section-header">
+        About Me
+    </h2>
+    <div class="container-fluid d-flex flex-column flex-lg-row-reverse">
+        <div>
+        <img src="/img/display-img.jpeg" class="rounded p-5 m-auto">
+        <p>That's me!</p>
+        </div>
+    <div class='d-flex align-items-center'>
+        <span class="about-info lead">I am currently a final year student at UNSW studying Comp Sci/Commerce. 
+            I enjoy maths, science and the business world, continuously applying new knowledge into my personal and uni projects.
+            Some of my favorite hobbies include volunteering with the local community, working on my car and watching anime.
+        </span>
+    </div>
+    </div>
 </section>
 </body>
 

@@ -61,6 +61,10 @@ body {
     font-size: 2rem;
     font-style: italic; }
 
+.nav-items{
+  font-size: 1.5em;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
 .down-arrow {
   position: relative;
   display: block;
@@ -161,3 +165,21 @@ body {
   margin-left: 10px;
   transform: translateX(0);
   transition: transform 0.3s ease-out; }
+
+.about-section{
+  text-align: center;
+  padding: 10rem 2rem;
+  background-color: #161A1D;
+  color: white;
+}
+
+.about-section-header{
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  color: white;
+  border-bottom: 0.2rem solid white;
+}
+
+.about-info{
+  font-size: 1.5em;
+}
