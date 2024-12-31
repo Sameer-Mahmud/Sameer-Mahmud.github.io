@@ -1,12 +1,10 @@
 import { Link } from "@nextui-org/link";
-import { Snippet } from "@nextui-org/snippet";
 import { button as buttonStyles } from "@nextui-org/theme";
 
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { ArrowDownIcon, GithubIcon, LinkedInLogo} from "@/components/icons";
 import DefaultLayout from "@/layouts/default";
-import ProjectsPage from "./projects";
 import ProjectCard from "@/components/projectcard";
 import { Button } from "@nextui-org/button";
 
