@@ -4,8 +4,11 @@ import { button as buttonStyles } from "@nextui-org/theme";
 
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
-import { GithubIcon, LinkedInLogo} from "@/components/icons";
+import { ArrowDownIcon, GithubIcon, LinkedInLogo} from "@/components/icons";
 import DefaultLayout from "@/layouts/default";
+import ProjectsPage from "./projects";
+import ProjectCard from "@/components/projectcard";
+import { Button } from "@nextui-org/button";
 
 export default function IndexPage() {
   return (
@@ -45,14 +48,34 @@ export default function IndexPage() {
           </Link>
         </div>
 
-        <div className="mt-8">
-          <Snippet hideCopyButton hideSymbol variant="bordered">
-            <span>
-              Check out my Projects Below
-            </span>
-          </Snippet>
+        <div className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
+        <Button 
+        disableRipple
+        disableAnimation
+            variant="light"
+            className= "flex flex-col h-16"
+            onClick={() => {
+              const section = document.getElementById("projects-section");
+              if (section) {
+                section.scrollIntoView({ behavior: "smooth", block: "start" });
+              }
+            }}
+          >
+            Check my Projects Below
+            <ArrowDownIcon width={""} />
+          </Button>
         </div>
       </section>
+      <section id="projects-section">
+              <div className="grid gap-4 md:py-1 sm:grid-cols-1 md:grid-cols-2">
+                {
+                  siteConfig.projectsItems.map(item => (
+                    <ProjectCard key={item.name} url = {item.href} imageUrl={item.imageUrl} name= {item.name} desc = {item.desc} />
+                  ))
+      
+                }
+              </div>
+            </section>
     </DefaultLayout>
   );
 }

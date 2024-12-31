@@ -13,7 +13,7 @@ export default function DocsPage() {
       <Image
             alt={"Me"}
             className="object-cover rounded-xl"
-            src={"public/img/display-img.jpeg"}
+            src={"/img/display-img.jpeg"}
             width={270}
           />
         <div className="inline-block max-w-lg text-center justify-center">

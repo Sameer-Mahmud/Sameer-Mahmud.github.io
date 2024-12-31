@@ -9,7 +9,6 @@
 		"lint": "eslint -c .eslintrc.json ./src/**/**/*.{ts,tsx} --fix",
 		"preview": "vite preview"
 	},
-	"homepage": "https://sameermcfc.github.io/Sameer-Mahmud.github.io/",
 	"dependencies": {
 		"@nextui-org/button": "2.2.3",
 		"@nextui-org/code": "2.2.3",
