@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../test_classifier_extractor"
+		},
+		{
+			"path": "../../../ymb-web-app"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {}
+}
